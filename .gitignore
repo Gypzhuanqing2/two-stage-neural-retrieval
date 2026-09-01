@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and local tooling
+.idea/
+.vscode/
+.agents/
+
+# Notebooks and local study notes
+*.ipynb
+.ipynb_checkpoints/
+/知识详细讲解.md
+/索引项目详解.md
+/索引项目讲解_一天速成版.md
+/索引-导师问题清单.md
+
+# Downloaded datasets, trained models, and generated indexes
+recall/msmarco-data/
+recall/output/
+rank/ModernBERT-base/
+rank/models/
+search_system/*.jsonl.gz
+search_system/*.faiss
+search_system/*.pkl
+
+# Common model and data artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.faiss
+*.pkl
+*.pickle
+
+# Runtime output
+*.log
+CrossEncoderRerankingEvaluator_*_results.csv
