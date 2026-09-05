@@ -1,10 +1,10 @@
-# Two-Stage Neural Retrieval
+# Two-Stage-Semantic-Retrieval
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-一个从训练到推理的两阶段神经检索项目。第一阶段使用 Bi-Encoder 和 FAISS
+一个结合 BERT 双编码器召回、FAISS 向量检索和 ModernBERT 交叉编码器重排的两阶段语义检索系统。第一阶段使用 Bi-Encoder 和 FAISS
 从语料库中快速召回候选文档，第二阶段使用 Cross-Encoder 计算更细粒度的
 query-passage 相关性并重新排序。
 
